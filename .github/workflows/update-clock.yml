@@ -1,0 +1,50 @@
+name: Update profile clock
+
+# Keeps the "MUMBAI // HH:MM IST" readout in tanishq-profile.svg showing the
+# current India time. Runs every 30 minutes and whenever the banner changes.
+# Trade-off: about 48 small auto-commits a day in this profile repo. If that
+# gets noisy, change the cron to hourly ('0 * * * *') or remove this file
+# and the clock freezes at whatever time was last written.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['tanishq-profile.svg']
+
+jobs:
+  update-clock:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update IST time in banner
+        run: |
+          python3 - <<'EOF'
+          import re
+          from datetime import datetime, timezone, timedelta
+          ist = timezone(timedelta(hours=5, minutes=30))
+          now = datetime.now(ist).strftime('%H:%M')
+          p = 'tanishq-profile.svg'
+          s = open(p, encoding='utf-8').read()
+          s2, n = re.subn(
+              r'(<text[^>]*id="local-time"[^>]*>)[^<]*(</text>)',
+              r'\g<1>' + now + ' IST' + r'\g<2>',
+              s,
+          )
+          if n == 0:
+              raise SystemExit('local-time element not found in tanishq-profile.svg')
+          open(p, 'w', encoding='utf-8').write(s2)
+          print('banner clock set to', now, 'IST')
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tanishq-profile.svg
+          git diff --staged --quiet || (git commit -m "chore: update banner clock" && git push)
