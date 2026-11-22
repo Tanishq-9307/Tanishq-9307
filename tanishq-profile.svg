@@ -32,8 +32,8 @@
   <text x="520" y="452" font-size="14" fill="#8b949e">ESP32 water level controller, LEAP final project</text>
   <text x="40" y="488" font-size="17" font-weight="bold" fill="#f0f6fc">Maker Bhavan Council</text>
   <text x="40" y="512" font-size="14" fill="#8b949e">Member, VESIT Mumbai</text>
-  <text x="520" y="488" font-size="17" font-weight="bold" fill="#f0f6fc">Techfest Campus Ambassador</text>
-  <text x="520" y="512" font-size="14" fill="#8b949e">IIT Bombay</text>
+  <text x="520" y="488" font-size="17" font-weight="bold" fill="#f0f6fc">LEAP Bootcamp</text>
+  <text x="520" y="512" font-size="14" fill="#8b949e">Reverse Engineering &amp; Automation, IITM Incubation Cell</text>
 
   <line x1="40" y1="536" x2="960" y2="536" stroke="#30363d" stroke-width="1"/>
   <text x="40" y="566" font-size="14" fill="#8b949e">tanishq.jshinde@gmail.com &#183; linkedin.com/in/tanishq-shinde-080266375 &#183; Mumbai, Maharashtra</text>

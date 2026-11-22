@@ -6,7 +6,6 @@
 
 - **[Smart Energy Meter](https://github.com/Tanishq-9307/smart-energy-meter)** — ESP32 + ACS712 current sensing with live power, energy and cost on an OLED and the Blynk IoT app, with 50% and 100% budget alerts.
 - **[HydroGate](https://github.com/Tanishq-9307/hydrogate)** — Automated water level controller for a miniature dam model: HC-SR04 ultrasonic sensing, servo dam gate valve and relay pump control.
-- **[VK Football Academy Portal](https://github.com/Tanishq-9307/vk-football-academy-portal)** — Website + academy management system (attendance, session plans, parent/coach/admin portals) for VK Football Academy, Thane.
 
 ## Contact
 
