@@ -1,40 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
-  <rect x="1" y="1" width="998" height="598" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" font-family="Arial, Helvetica, sans-serif">
+  <rect x="1" y="1" width="998" height="618" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
   <rect x="40" y="44" width="48" height="4" fill="#f85149"/>
 
   <text x="40" y="84" font-size="15" letter-spacing="3" fill="#f85149" font-weight="bold">AUTOMATION &amp; ROBOTICS / EMBEDDED SYSTEMS &amp; IOT</text>
   <text x="40" y="136" font-size="52" font-weight="bold" fill="#f0f6fc" letter-spacing="1">TANISHQ SHINDE</text>
   <text x="40" y="168" font-size="20" fill="#8b949e">Automation &amp; Robotics &#183; Embedded Systems &#183; IoT</text>
   <text x="40" y="196" font-size="16" fill="#8b949e">Undergraduate at VESIT Mumbai &#183; B.Tech in Automation &amp; Robotics &#183; GPA 8.45</text>
+  <text x="40" y="220" font-size="16"><tspan fill="#f85149" font-weight="bold">NOW &#8212; </tspan><tspan fill="#8b949e">Building a 4-axis robotic arm &#183; Learning Python + ROS 2 in parallel</tspan></text>
 
-  <line x1="40" y1="222" x2="960" y2="222" stroke="#30363d" stroke-width="1"/>
+  <line x1="40" y1="244" x2="960" y2="244" stroke="#30363d" stroke-width="1"/>
 
-  <text x="40" y="258" font-size="13" letter-spacing="2" fill="#f85149" font-weight="bold">01 / TOOLKIT</text>
+  <text x="40" y="280" font-size="13" letter-spacing="2" fill="#f85149" font-weight="bold">01 / TOOLKIT</text>
   <g font-size="14" fill="#f0f6fc" text-anchor="middle">
-    <rect x="40" y="272" width="70" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="75" y="294">ESP32</text>
-    <rect x="122" y="272" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="168" y="294">Arduino</text>
-    <rect x="226" y="272" width="110" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="281" y="294">Embedded C</text>
-    <rect x="348" y="272" width="50" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="373" y="294">C</text>
-    <rect x="410" y="272" width="82" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="451" y="294">Python</text>
-    <rect x="504" y="272" width="70" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="539" y="294">Linux</text>
-    <rect x="40" y="318" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="86" y="340">LTspice</text>
-    <rect x="144" y="318" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="190" y="340">AutoCAD</text>
-    <rect x="248" y="318" width="82" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="289" y="340">RoboDK</text>
-    <rect x="342" y="318" width="72" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="378" y="340">Blynk</text>
-    <rect x="426" y="318" width="165" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="508" y="340">Sensor Integration</text>
-    <rect x="603" y="318" width="165" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="685" y="340">Circuit Simulation</text>
+    <rect x="40" y="294" width="70" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="75" y="316">ESP32</text>
+    <rect x="122" y="294" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="168" y="316">Arduino</text>
+    <rect x="226" y="294" width="110" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="281" y="316">Embedded C</text>
+    <rect x="348" y="294" width="50" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="373" y="316">C</text>
+    <rect x="410" y="294" width="82" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="451" y="316">Python</text>
+    <rect x="504" y="294" width="70" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="539" y="316">Linux</text>
+    <rect x="40" y="340" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="86" y="362">LTspice</text>
+    <rect x="144" y="340" width="92" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="190" y="362">AutoCAD</text>
+    <rect x="248" y="340" width="82" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="289" y="362">RoboDK</text>
+    <rect x="342" y="340" width="72" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="378" y="362">Blynk</text>
+    <rect x="426" y="340" width="165" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="508" y="362">Sensor Integration</text>
+    <rect x="603" y="340" width="165" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="685" y="362">Circuit Simulation</text>
   </g>
 
-  <text x="40" y="398" font-size="13" letter-spacing="2" fill="#f85149" font-weight="bold">02 / SELECTED HIGHLIGHTS</text>
-  <text x="40" y="428" font-size="17" font-weight="bold" fill="#f0f6fc">Smart Energy Meter</text>
-  <text x="40" y="452" font-size="14" fill="#8b949e">ESP32 + ACS712 + Blynk IoT cloud monitoring</text>
-  <text x="520" y="428" font-size="17" font-weight="bold" fill="#f0f6fc">HydroGate</text>
-  <text x="520" y="452" font-size="14" fill="#8b949e">ESP32 water level controller, LEAP final project</text>
-  <text x="40" y="488" font-size="17" font-weight="bold" fill="#f0f6fc">Maker Bhavan Council</text>
-  <text x="40" y="512" font-size="14" fill="#8b949e">Member, VESIT Mumbai</text>
-  <text x="520" y="488" font-size="17" font-weight="bold" fill="#f0f6fc">LEAP Bootcamp</text>
-  <text x="520" y="512" font-size="14" fill="#8b949e">Reverse Engineering &amp; Automation, IITM Incubation Cell</text>
+  <text x="40" y="420" font-size="13" letter-spacing="2" fill="#f85149" font-weight="bold">02 / SELECTED HIGHLIGHTS</text>
+  <text x="40" y="450" font-size="17" font-weight="bold" fill="#f0f6fc">Smart Energy Meter</text>
+  <text x="40" y="474" font-size="14" fill="#8b949e">ESP32 + ACS712 + Blynk IoT cloud monitoring</text>
+  <text x="520" y="450" font-size="17" font-weight="bold" fill="#f0f6fc">HydroGate</text>
+  <text x="520" y="474" font-size="14" fill="#8b949e">ESP32 water level controller, LEAP final project</text>
+  <text x="40" y="510" font-size="17" font-weight="bold" fill="#f0f6fc">Maker Bhavan Council</text>
+  <text x="40" y="534" font-size="14" fill="#8b949e">Member, VESIT Mumbai</text>
+  <text x="520" y="510" font-size="17" font-weight="bold" fill="#f0f6fc">LEAP Bootcamp</text>
+  <text x="520" y="534" font-size="14" fill="#8b949e">Reverse Engineering &amp; Automation, IITM Incubation Cell</text>
 
-  <line x1="40" y1="536" x2="960" y2="536" stroke="#30363d" stroke-width="1"/>
-  <text x="40" y="566" font-size="14" fill="#8b949e">tanishq.jshinde@gmail.com &#183; linkedin.com/in/tanishq-shinde-080266375 &#183; Mumbai, Maharashtra</text>
+  <line x1="40" y1="558" x2="960" y2="558" stroke="#30363d" stroke-width="1"/>
+  <text x="40" y="588" font-size="14" fill="#8b949e">tanishq.jshinde@gmail.com &#183; linkedin.com/in/tanishq-shinde-080266375 &#183; Mumbai, Maharashtra</text>
 </svg>
