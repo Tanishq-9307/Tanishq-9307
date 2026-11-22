@@ -1,16 +1,17 @@
-## Hi there 👋
+<p align="center">
+  <img src="./tanishq-profile.svg" width="100%" alt="Tanishq Shinde — Automation &amp; Robotics, Embedded Systems &amp; IoT" />
+</p>
 
-<!--
-**Tanishq-9307/Tanishq-9307** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Featured projects
 
-Here are some ideas to get you started:
+- **[Smart Energy Meter](https://github.com/Tanishq-9307/smart-energy-meter)** — ESP32 + ACS712 current sensing with live power, energy and cost on an OLED and the Blynk IoT app, with 50% and 100% budget alerts.
+- **[HydroGate](https://github.com/Tanishq-9307/hydrogate)** — Automated water level controller for a miniature dam model: HC-SR04 ultrasonic sensing, servo dam gate valve and relay pump control.
+- **[VK Football Academy Portal](https://github.com/Tanishq-9307/vk-football-academy-portal)** — Website + academy management system (attendance, session plans, parent/coach/admin portals) for VK Football Academy, Thane.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Contact
+
+- Email: tanishq.jshinde@gmail.com
+- LinkedIn: [linkedin.com/in/tanishq-shinde-080266375](https://www.linkedin.com/in/tanishq-shinde-080266375)
+- Location: Mumbai, Maharashtra
+
+[![Tanishq's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tanishq-9307&amp;show_icons=true&amp;theme=dark)](https://github.com/Tanishq-9307)
